@@ -1,0 +1,589 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h3 {
+  font-size: 24px;
+}
+header {
+  width: 100%;
+  height: 64px;
+
+  background: #ffffff;
+}
+header img {
+  margin: 10px 40px;
+}
+.Herostn {
+  background-color: #003145;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 85vh;
+  margin: auto;
+  display: flex;
+}
+.Herostn .Section {
+  min-width: 30%;
+}
+#FirstSec {
+  margin-left: 5%;
+  padding: 50px;
+  color: white;
+}
+#FirstSec div {
+  padding-left: 10%;
+  margin-bottom: 25px;
+}
+#FirstSec .Headings {
+  border-left: 10px #ffce5c solid;
+}
+.Headings h1 {
+  line-height: 48px;
+  font-size: 48px;
+}
+.Description p {
+  width: 80%;
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.Description button {
+  margin-left: 10px;
+  color: #003145;
+  margin-top: 5%;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  line-height: 18px;
+}
+.Statsstn {
+  display: flex;
+  background-color: #002a3b;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30vh;
+  color: white;
+}
+.Statsstn img {
+  margin: 30px;
+}
+.flexbox {
+  min-width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#SndStats {
+  border-right: 1px #c4c4c4 solid;
+  border-left: 1px #c4c4c4 solid;
+  max-height: 40px;
+}
+.Motivatestn {
+  margin: 5vw;
+}
+.Motivatestn h2 {
+  text-align: center;
+  font-size: 32px;
+}
+.Motivatestn h2 span {
+  color: #0fa958;
+}
+.MotiveSndStn {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+}
+.CardMtv {
+  border-radius: 20px;
+  padding: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 45%;
+  margin: auto;
+  margin: 30px;
+  background: #f8f9fd;
+}
+.CardMtv h3 {
+  font-size: 28x;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.CardMtv p {
+  color: #64607d;
+}
+.SearchBox {
+  position: relative;
+  height: 50vh;
+  background-color: #002a3b;
+}
+.SearchBox h3 {
+  color: white;
+  text-align: center;
+  padding: 10vh;
+  font-size: 28px;
+}
+.ToggleDisplay {
+  display: none;
+}
+.Srhicon {
+  position: absolute;
+  left: 27%;
+  z-index: 6;
+}
+.SrhBx {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#SearchBar {
+  position: relative;
+  width: 60%;
+  padding: 15px 45px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+}
+.DropDown {
+  position: absolute;
+  left: 75%;
+  top: 53%;
+  padding: 8px 20px;
+  margin-left: 30px;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 99;
+  max-width: fit-content;
+}
+.DropDown img {
+  width: 20px;
+}
+.DropDown ul {
+  color: #858585;
+  margin: 5px;
+  margin-top: 10px;
+  width: 15vw;
+  list-style: none;
+  border-top: 1px #ececec solid;
+}
+.DropDown ul li {
+  margin: 3px;
+}
+.flt {
+  cursor: pointer;
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+.flt p {
+  font-size: 19px;
+}
+.flt img {
+  margin-left: 5px;
+}
+.DropDown span {
+  color: #858585;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.DropDown ul li {
+  display: flex;
+  align-items: center;
+}
+.DropDown ul p {
+  font-size: 13px;
+  padding: 0%;
+  margin: 0%;
+  padding-left: 20px;
+}
+.tags {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+.tags div {
+  display: flex;
+  width: 50%;
+}
+.tags span {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  max-width: fit-content;
+  background: #f8f9fd7d;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: white;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.tags img {
+  margin-left: 10px;
+}
+.Challengesstn {
+  background: #003145;
+  padding: 6vh 6vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ChllgCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  margin: 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+.ChllgCard span {
+  margin-bottom: 10px;
+}
+.ChllgCard .Inactive {
+  margin-top: 190px;
+  max-width: fit-content;
+  padding: 5px 20px;
+  background: #f2c94c40;
+  font-family: "Inter", sans-serif;
+  color: #666666;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.ChllgCard h5 {
+  width: 58%;
+  text-align: center;
+  margin: 20px;
+}
+.ChllgCard img {
+  border-radius: 13px 13px 0px 0;
+  max-height: 34%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  margin: 0%;
+}
+.Active {
+  margin-top: 190px;
+  border-radius: 3px;
+  max-width: fit-content;
+  padding: 5px 20px;
+  background: #44924c3d;
+  font-family: "Inter", sans-serif;
+  color: #44924c;
+  font-size: 12px;
+}
+.Timertime {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #454545;
+  line-height: 28px;
+}
+.Timerstn .flexbox {
+  color: #454545;
+}
+.Timerstn .flexbox h5 {
+  margin: 0%;
+}
+.Timerstn .flexbox h2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+button {
+  cursor: pointer;
+}
+.ppt_ptn {
+  cursor: pointer;
+  margin: 40px;
+  background-color: #44924c;
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+}
+.ppt_ptn img {
+  position: static;
+
+  margin-right: 10px;
+  width: 20px;
+}
+.blackout {
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  min-height: 100vh;
+  min-width: 100vw;
+  z-index: 50;
+  background-color: #0000008e;
+}
+.Warning {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+.linksclass {
+  cursor: pointer;
+  text-decoration: none;
+}
+.ChllgHero {
+  padding: 7vw;
+  margin: auto;
+  height: 65vh;
+  background: #003145;
+}
+.ChllgHero h1 {
+  color: white;
+  font-size: 40px;
+  line-height: 48px;
+  margin: 30px 0 30px 0;
+}
+.ChllgHero h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
+}
+.ChllgHero button img {
+  margin-right: 5px;
+}
+.ChllgHero button {
+  display: flex;
+  align-items: center;
+  background: #f8f9fd;
+  color: #003145;
+  padding: 8px 20px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 25px;
+  font-size: 14px;
+  line-height: 12px;
+}
+.chllgtimer {
+  display: flex;
+  align-items: center;
+  background: #ffce5c;
+  max-width: fit-content;
+  padding: 7px 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.chllgtimer img {
+  margin-right: 5px;
+}
+.flexboxs {
+  display: flex;
+  flex-direction: row;
+  height: 66px;
+  width: 100vw;
+  background: #ffffff;
+  border: 0.3px solid #dde6ed;
+  box-shadow: 0px 6px 12px #dde6ed;
+  justify-content: space-between;
+  align-items: center;
+}
+.overView {
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29.12px;
+  position: relative;
+  margin-left: 7vw;
+}
+.line {
+  position: absolute;
+  top: 60px;
+  border-radius: 3px;
+  border: none;
+  left: 0%;
+  background-color: #44924c;
+  min-height: 4px;
+  min-width: 100%;
+}
+.chllgbttns {
+  margin-right: 9vw;
+}
+.Editbttn {
+  background-color: #44924c;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 10px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+}
+.Dltbttn {
+  border: 1.2px solid #dc1414;
+  border-radius: 10px;
+  background-color: #002a3b00;
+  color: #dc1414;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 10px 0 10px 0;
+  padding: 10px 20px;
+}
+.Over {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70vw;
+  margin-left: 7vw;
+  color: #64607d;
+}
+.ChllgDetail .DetailHero {
+  background: #f8f9fd;
+  height: 107px;
+}
+.ChllgDetail .DetailHero h2 {
+  padding-left: 5vw;
+  padding-top: 3vw;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+.DetailForm {
+  padding-left: 5vw;
+}
+.DetailForm p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #333333;
+  padding: 10px 0px 10px 0px;
+}
+#Description {
+  padding: 10px;
+  color: #a19595;
+  width: 60%;
+  border: 1px #a19595 solid;
+  border-radius: 2px;
+}
+.DetailForm input {
+  margin: 10px 0px 10px 0px;
+
+  border: 1px #a19595 solid;
+
+  border-radius: 2px;
+}
+.Dropdown {
+  max-width: 10vw;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+.uploadText {
+  padding: 5px 9.3vw;
+  background: #f4f4f4;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #666666;
+  display: flex;
+  height: fit-content;
+  justify-content: space-evenly;
+}
+.textuploaded {
+  padding: 20px;
+  background: #f8f9fd;
+  border: 1px solid #f8f9fd;
+  border-radius: 10px;
+  min-width: fit-content;
+  max-height: fit-content;
+}
+.textuploaded img {
+  border-radius: 20px;
+}
+.changeImage {
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.changeImage p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #44924c;
+}
+#level {
+  color: #808080;
+  width: 20%;
+  padding: 5px;
+  padding: 5px;
+}
+.Submitbttn {
+  color: white;
+  background: #44924c;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+#ChallName,
+#StartDate,
+#EndDate {
+  color: #808080;
+  min-width: 30%;
+  padding: 5px;
+}
+label {
+  position: absolute;
+  left: 30%;
+  margin-top: 14px;
+}
+.warn {
+  color: #0fa958;
+  font-size: 12px;
+  padding: 0 5px;
+  border: 2px #0fa958 solid;
+  border-radius: 5px;
+  max-width: fit-content;
+}
+.Formwarning {
+  width: 80vw;
+  margin-left: 10vw;
+  color: #dc1414;
+  padding: 10px;
+  border: 2px #dc1414 solid;
+  border-radius: 3px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
